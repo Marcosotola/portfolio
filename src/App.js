@@ -1,12 +1,12 @@
 import React from "react";
 import "./App.css";
-import Landingpage from "./components/landingpage/landingpage";
+import Home from "./Pages/Home/Home";
 
 
 const App = () => {
   return (
     <div className="App">
-    <Landingpage />
+    <Home />
     </div>
   )
 }

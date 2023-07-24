@@ -1,0 +1,14 @@
+
+  .perfil {
+    opacity: 0; 
+    transition: opacity 3.5s ease; 
+    width: 17%;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #00CCFF, 0 0 20px #00CCFF, 0 0 30px #00CCFF;
+    
+  }
+  
+  .fadeIn {
+    opacity: 0.15; /* Cuando se añade la clase 'fadeIn', la opacidad pasa a 1 (totalmente visible) */
+  }
+  
