@@ -1,0 +1,41 @@
+.title {
+  color: rgb(166, 184, 201);
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 40px;
+  position: relative;
+  animation: appearFromBottom 1s;
+  margin: 2rem;
+}
+
+span {
+  color: #00ccff;
+  text-shadow: 0 0 10px #00ccff, 0 0 20px #00ccff, 0 0 30px #00ccff;
+  animation: parpadeo-neon 0.1s 8;
+}
+
+@keyframes appearFromBottom {
+  from {
+    transform: translateY(400%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Crear una animación de parpadeo */
+@keyframes parpadeo-neon {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.elemento-parpadeante {
+  animation: parpadeo-neon 1s infinite;
+}

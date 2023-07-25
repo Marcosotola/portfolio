@@ -4,8 +4,9 @@
     transition: opacity 3.5s ease; 
     width: 17%;
     border-radius: 50%;
-    box-shadow: 0 0 10px #00CCFF, 0 0 20px #00CCFF, 0 0 30px #00CCFF;
-    
+    box-shadow: 0 0 30px #c2d7dc, 0 0 40px #c2d7dc, 0 0 50px #c2d7dc;
+    margin-top: 1rem;
+    margin-right: 3rem;
   }
   
   .fadeIn {
