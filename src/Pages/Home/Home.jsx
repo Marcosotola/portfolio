@@ -1,21 +1,18 @@
 import React from "react";
 import "./Home.css";
-import video from "./background-video.mp4";
 import Perfil from "../../components/Perfil/Perfil";
 import Title from "../../components/Title/Title";
+import Buttons from "../../components/Buttons/Buttons";
 
 const Home = () => {
   return (
     <>
-      <div className="landingpage">
-        <video src={video} className="video-bg" autoPlay muted loop />
-        <div className="navbar" style={{height:'2rem'}}>
-        </div>
-        <div className="bg-overlay">
-          <Title />
-          <Perfil />
-        </div>
+    <h2 className="name">Marco Sotola</h2>
+      <div className="bg-overlay">
+        <Title />
+        <Perfil />
       </div>
+      <Buttons />
     </>
   );
 };

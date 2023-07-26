@@ -5,11 +5,11 @@
     width: 17%;
     border-radius: 50%;
     box-shadow: 0 0 30px #c2d7dc, 0 0 40px #c2d7dc, 0 0 50px #c2d7dc;
-    margin-top: 1rem;
-    margin-right: 3rem;
+    margin-top: 3rem;
+    margin-right: 5rem;
   }
   
   .fadeIn {
-    opacity: 0.15; /* Cuando se añade la clase 'fadeIn', la opacidad pasa a 1 (totalmente visible) */
+    opacity: 0.35; /* Cuando se añade la clase 'fadeIn', la opacidad pasa a 1 (totalmente visible) */
   }
   

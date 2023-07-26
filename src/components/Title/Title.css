@@ -4,25 +4,26 @@
   text-align: center;
   margin-bottom: 40px;
   position: relative;
-  animation: appearFromBottom 1s;
+  opacity: 0; /* Inicialmente, el título estará oculto */
+  animation: appearAndAnimate 1s 1s forwards; /* La animación se inicia después de 2 segundos y se mantiene en su estado final */
   margin: 2rem;
+}
+
+@keyframes appearAndAnimate {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 span {
   color: #00ccff;
   text-shadow: 0 0 10px #00ccff, 0 0 20px #00ccff, 0 0 30px #00ccff;
-  animation: parpadeo-neon 0.1s 8;
-}
-
-@keyframes appearFromBottom {
-  from {
-    transform: translateY(400%);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
+  animation: parpadeo-neon 0.1s 1.7s 4;
 }
 
 /* Crear una animación de parpadeo */
