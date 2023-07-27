@@ -8,9 +8,10 @@ import video from "./background-video.mp4";
 const App = () => {
   return (
     <>
-      <div className="App">
-        <div className="landingpage">
-          <video src={video} className="video-bg" autoPlay muted loop />
+
+      <div className="video-background-container">
+        <video src={video} className="video-background" autoPlay loop muted />
+        <div className="content">
           <Home />
           <BgMusic />
         </div>

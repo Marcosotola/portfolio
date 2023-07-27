@@ -5,39 +5,15 @@
   color: white;
 }
 
-.landingpage {
-  background-color: rgba(0, 0, 0, 0.65);
-  height: 100vh;
+.contentPerfil{
+  display: flex;
+  justify-content: flex-end;
 }
 
-.video-bg {
-  width: 100%;
-  height: 100vh;
-  position: absolute;
-  top: 0;
-  z-index: -1;
-  object-fit: cover;
-}
 
-.bg-overlay {
+.overlay {
   width: 100%;
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  justify-content: center;
 }
 
-.name{
-padding: 3rem;
-}
-
-@keyframes nameInFromRight {
-  0% {
-      opacity: 0;
-      transform: translateX(100%);
-  }
-
-  100% {
-      opacity: 1;
-      transform: translateX(0);
-  }
-}

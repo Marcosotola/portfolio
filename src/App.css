@@ -1,19 +1,45 @@
-.App{
- margin: 0;
- padding: 0;
+.App {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
-.landingpage {
-  background-color: rgba(0, 0, 0, 0.65);
-  height: 150vh;
-}
-
-.video-bg {
+.video-background-container {
+  position: relative;
   width: 100%;
-  height: 150vh;
-  position: absolute;
+
+  overflow: hidden;
+}
+
+.video-background {
+  position: fixed;
   top: 0;
-  z-index: -10;
+  left: 0;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
+  z-index: -1;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.65);
+  /* Ajusta el posicionamiento y los estilos de los elementos superpuestos */
+  /* Por ejemplo: */
+  padding: 20px;
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 15px; /* Ancho de la barra de scroll */
+  background-color: #04080e;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #333; /* Color del "pulggar" del scroll */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Color del "pulggar" al pasar el mouse sobre él */
 }

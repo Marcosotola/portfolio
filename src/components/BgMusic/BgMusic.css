@@ -4,12 +4,11 @@
     color: #fff;
     font-size: 16px;
     padding: 10px 20px;
-    border: none;
     border-radius: 5px;
     cursor: pointer;
     margin: 2rem;
     position: relative;
-    border: solid 2px #06e8f4;
+    border: solid 1px #fafafa;
     opacity: 0;
     animation: slideInFromLeft 0.5s 0.5s forwards;
     box-shadow: 0 0 10px rgba(6, 232, 244, 0); /* Sombras inicialmente transparentes */
@@ -30,9 +29,7 @@
 }
 
 .music-button:hover {
-    transform: scale(1.1);
-    box-shadow: 0 0 20px rgba(6, 232, 244, 0.8); /* Brillo de neón */
-    text-shadow: 0 0 10px rgba(6, 232, 244, 0.8); /* Resplandor del texto */
+    transform: scale(0.8);
+    box-shadow: 0 0 20px rgba(194, 233, 235, 0.8); /* Brillo de neón */
     background-color: rgba(6, 232, 244, 0.2); /* Fondo transparente de neón */
-    color: #06e8f4; /* Color del texto al encenderse el botón */
 }

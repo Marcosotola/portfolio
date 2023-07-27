@@ -5,8 +5,7 @@
     width: 17%;
     border-radius: 50%;
     box-shadow: 0 0 30px #c2d7dc, 0 0 40px #c2d7dc, 0 0 50px #c2d7dc;
-    margin-top: 3rem;
-    margin-right: 5rem;
+    margin: 1rem;
   }
   
   .fadeIn {
