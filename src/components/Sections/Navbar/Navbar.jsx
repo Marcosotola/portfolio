@@ -36,6 +36,13 @@ const Navbar = () => {
         >
           <i className="fab fa-instagram fa-lg"></i>
         </a>
+        <a
+        href="https://api.whatsapp.com/send?phone=3513908198"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i className="fab fa-whatsapp fa-lg"></i>
+      </a>
       </div>
     </>
   );

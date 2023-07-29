@@ -1,25 +1,37 @@
-.navBar{
+.navBar {
   display: flex;
   justify-content: space-between;
 }
 
-
 .nav {
-    position: relative; /* Permitir el uso de z-index */
-    z-index: 1; /* Asegurarse de que esté por encima del video de fondo */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  position: relative; 
+  z-index: 1; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav a {
+  margin: 0 10px;
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: #00ffff;
+}
+
+@keyframes entradaIconos {
+  0% {
+    transform: translateY(-100px) rotate(0deg);
   }
-  
-  .nav a {
-    margin: 0 10px;
-    color: white;
-    font-size: 30px;
-    text-decoration: none;
+  100% {
+    transform: translateY(0) rotate(360deg);
   }
-  
-  .nav a:hover {
-    color: #00ffff;
-  }
-  
+}
+
+.nav i {
+  animation: entradaIconos 1s ease forwards;
+}
+
