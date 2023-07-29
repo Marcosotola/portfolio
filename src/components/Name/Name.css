@@ -1,12 +1,13 @@
 .name {
   padding: 1rem;
+  color: rgb(166, 184, 201);
   animation: nameInFromRight 1s forwards;
 }
 
 @keyframes nameInFromRight {
   0% {
     opacity: 0;
-    transform: translateX(100%);
+    transform: translateX(400%);
   }
 
   100% {

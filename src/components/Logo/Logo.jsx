@@ -6,9 +6,6 @@ const Logo = () => {
   return (
     <>
       <img src={imgLogo} alt="logo" className='logo'/>
-      <p className='textLogo'>
-        Marco Sotola
-      </p>
     </>
   )
 }

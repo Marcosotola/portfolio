@@ -1,19 +1,11 @@
-
 * {
   margin: 0;
   box-sizing: border-box;
-  color: white;
 }
 
-.contentPerfil{
+.mainHome {
+  margin-top: 2rem;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-evenly;
+  align-items: center;
 }
-
-
-.overlay {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-

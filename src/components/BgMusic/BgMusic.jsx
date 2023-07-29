@@ -17,12 +17,14 @@ const BgMusic = () => {
   };
 
   return (
-    <div>
+    <>
+    <div className="btnPlay">
       <audio ref={audioRef} src={Music} loop />
       <button className="music-button" onClick={toggleAudio}>
         {isPlaying ? <FaPause /> : <FaPlay />}
       </button>
-    </div>
+      </div>
+    </>
   );
 };
 

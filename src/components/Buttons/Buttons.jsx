@@ -5,11 +5,8 @@ const Buttons = () => {
   return (
     <>
       <div className="btnContainer">
-      
-          <button className="btn1">my works</button>
-
-        
-          <button className="btn2">skills</button>
+        <button className="btn1">my works</button>
+        <button className="btn2">skills</button>
       </div>
     </>
   );

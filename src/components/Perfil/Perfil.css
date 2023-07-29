@@ -9,6 +9,10 @@
   }
   
   .fadeIn {
-    opacity: 0.35; /* Cuando se añade la clase 'fadeIn', la opacidad pasa a 1 (totalmente visible) */
+    opacity: 0.35; 
+  }
+
+  .perfil:hover{
+    scale: 1.03;
   }
   

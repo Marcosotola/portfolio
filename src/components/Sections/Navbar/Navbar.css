@@ -1,4 +1,8 @@
-/* Nav.css */
+.navBar{
+  display: flex;
+  justify-content: space-between;
+}
+
 
 .nav {
     position: relative; /* Permitir el uso de z-index */
@@ -10,12 +14,12 @@
   
   .nav a {
     margin: 0 10px;
-    color: #333;
-    font-size: 24px;
+    color: white;
+    font-size: 30px;
     text-decoration: none;
   }
   
   .nav a:hover {
-    color: #007bff;
+    color: #00ffff;
   }
   
