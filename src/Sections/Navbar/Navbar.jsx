@@ -1,17 +1,9 @@
 import React from "react";
 import "./Navbar.css";
-import Name from "../../Name/Name";
-import Logo from "../../Logo/Logo";
 
 const Navbar = () => {
   return (
     <>
-      <div className="navBar">
-      
-          <Name />
-          <Logo/>
-        
-      </div>
       <div className="nav">
         <a href="https://github.com" target="_blank" rel="noopener noreferrer">
           <i className="fab fa-github fa-lg"></i>
@@ -37,12 +29,19 @@ const Navbar = () => {
           <i className="fab fa-instagram fa-lg"></i>
         </a>
         <a
-        href="https://api.whatsapp.com/send?phone=3513908198"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <i className="fab fa-whatsapp fa-lg"></i>
-      </a>
+          href="https://www.linkedin.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-linkedin fa-lg"></i>
+        </a>
+        <a
+          href="https://api.whatsapp.com/send?phone=3513908198"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-whatsapp fa-lg"></i>
+        </a>
       </div>
     </>
   );

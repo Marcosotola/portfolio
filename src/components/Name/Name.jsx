@@ -1,12 +1,19 @@
-import React from 'react'
-import './Name.css'
+import React from 'react';
 
 const Name = () => {
+  const handleClick = (event) => {
+    event.preventDefault();
+    const aboutSection = document.getElementById('about');
+    aboutSection.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <>
-      <h2 className="name">Marco Sotola</h2>
+      <a href="#about" onClick={handleClick}>
+        <h2 className="name">arco Sotola</h2>
+      </a>
     </>
-  )
-}
+  );
+};
 
 export default Name;

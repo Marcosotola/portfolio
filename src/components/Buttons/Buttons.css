@@ -1,5 +1,5 @@
 .btnContainer{
-    margin-top: 2rem;
+    margin-top: 5rem;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -8,7 +8,6 @@
     animation: buttonsAnimate 1s 1s forwards;
 }
 
-/* Estilos del botón */
 .btn1 {
     width: 25%;
     padding: 1rem;
@@ -69,4 +68,9 @@
       transform: translateY(0);
       opacity: 1;
     }
+  }
+
+  a{
+text-decoration: none;
+color: #fafafa;
   }
