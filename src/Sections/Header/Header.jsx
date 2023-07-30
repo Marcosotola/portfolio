@@ -12,8 +12,12 @@ const Header = () => {
           <Logo />
           <Name />
         </div>
-        <div>
+        <div className="menu">
           <BgMusic />
+          <div>
+          <i className="fa fa-bars fa-lg"></i>
+
+          </div>
         </div>
       </div>
     </>
