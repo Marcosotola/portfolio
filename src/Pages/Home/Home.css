@@ -13,8 +13,7 @@
 .homeContainer {
   height: 100vh; /* O ajusta la altura que desees */
   opacity: 1;
-  transition: opacity 0.15s; /* Transición de opacidad de 1 segundo */
-}
+  transition: opacity 0.5s ease-in-out;}
 
 /* Clase para ocultar la sección Home gradualmente */
 .homeContainer.hidden {

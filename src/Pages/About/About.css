@@ -1,5 +1,35 @@
+/* En tu archivo About.css */
 .aboutContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+    height: 100vh; /* O ajusta la altura que desees */
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out; /* Transición de opacidad de 0.5 segundos */
+  }
+  
+  /* Clase para ocultar la sección About gradualmente */
+  .aboutContainer.hidden {
+    opacity: 0;
+  }
+  
+  .aboutTitle {
+    margin: 3rem;
+    color: rgb(166, 184, 201);
+  }
+  
+  .aboutMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+  }
+  
+  .aboutName {
+    /* Estilos para el nombre si los necesitas */
+  }
+  
+  .aboutText {
+    padding: 1rem;
+  }
+  

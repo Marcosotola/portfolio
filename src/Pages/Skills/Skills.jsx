@@ -1,12 +1,17 @@
-import React from 'react'
-import './Skills.css'
+import React from "react";
+import "./Skills.css";
 
-const Skills = () => {
+const Skills = ({ hideSkills }) => {
   return (
-    <div>
-      <h1>Skills</h1>
+    <>
+    <div style={{marginTop: '80px'}}></div>
+    <div className={hideSkills ? "skillsContainer hidden" : "skillsContainer"} id="skills">
+      {/* Contenido de la sección Skills */}
+      <h1>skills</h1>
     </div>
-  )
-}
+    </>
+  );
+};
 
 export default Skills;
+
