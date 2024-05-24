@@ -8,7 +8,7 @@ const About = ({ hideAbout }) => {
       className={hideAbout ? "aboutContainer hidden" : "aboutContainer"}
       id="about"
     >
-      <h1 className="aboutTitle">About</h1>
+      <h1 className="aboutTitle" id="about">About</h1>
       <div className="aboutMain">
         <h3 className="aboutName">Mi nombre es Marco Sotola.</h3>
         <p className="aboutText">

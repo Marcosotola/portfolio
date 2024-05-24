@@ -4,7 +4,7 @@ import "./App.css";
 import Header from "./Sections/Header/Header";
 import Home from "./Pages/Home/Home";
 import About from "./Pages/About/About";
-import video from "./background-video.mp4";
+import video from "./background-video.webm";
 
 const App = () => {
   return (
