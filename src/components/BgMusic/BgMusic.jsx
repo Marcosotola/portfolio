@@ -6,7 +6,6 @@ import './BgMusic.css';
 const BgMusic = () => {
   const audioRef = useRef(null);
   const [isPlaying, setIsPlaying] = useState(false);
-
   const toggleAudio = () => {
     if (isPlaying) {
       audioRef.current.pause();
