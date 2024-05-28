@@ -7,6 +7,7 @@ import About from './Pages/About/About';
 import Loader from './Pages/loader/Loader'; // Import your loader component
 import video from './background-video.webm';
 
+
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
 

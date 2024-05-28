@@ -16,7 +16,6 @@ const Header = () => {
           <BgMusic />
           <div>
           <i className="fa fa-bars fa-lg"></i>
-
           </div>
         </div>
       </div>
